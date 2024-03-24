@@ -15,8 +15,8 @@ function Reviews() {
               <Image
                 src={revieu.profilepic}
                 alt="profile pic"
-                width={45}
-                height={45}
+                width={55}
+                height={55}
               />
 
               <div className={Styles.logoInnerBox}>
@@ -30,6 +30,7 @@ function Reviews() {
                   alt="rating"
                   width={90}
                   height={15}
+                  className={Styles.info}
                 />
               </div>
             </div>

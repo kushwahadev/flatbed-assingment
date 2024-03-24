@@ -9,8 +9,10 @@
   color: rgb(11, 11, 11);
   font-weight: 200;
   font-size: x-large;
+  letter-spacing: 1px;
   padding: 2rem;
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
 /* // image baxes  */
@@ -25,7 +27,7 @@
 /* review section ˚≥ */
 .reviews {
   background-color: rgba(241, 241, 241, 0.878);
-  padding: 2%;
+  padding: 6rem;
 }
 
 /* review section heading  */
@@ -36,6 +38,8 @@
   font-size: x-large;
   padding: 2rem;
   margin-top: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
 }
 
 .uperbox {
@@ -51,6 +55,7 @@
   border-radius: 1rem;
   padding: 1rem;
   background-color: white;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .logoBox {
@@ -60,13 +65,55 @@
 
 .info {
   margin: 0rem;
-  padding: 1%;
+  padding: 0.2rem;
 }
 
 .reviewDescription {
   padding: 1rem;
   font-size: small;
+  font-weight: 300;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .mainBox:hover {
-  box-shadow: 0.5rem 0.5rem 1rem rgb(101, 240, 240);
+  box-shadow: 0.4rem 0.4rem 1.5rem rgb(101, 240, 240);
+}
+
+/* // starting footer  */
+
+.footerhead {
+  text-align: center;
+}
+
+.footerHeadOne {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-size: x-large;
+  padding: 1rem;
+  margin: 0rem;
+  margin-top: 2rem;
+}
+
+.footerHead2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  margin: 0rem;
+  padding: 1rem;
+  font-weight: 100;
+  /* letter-spacing: 1px; */
+}
+
+.footerbtn {
+  background-color: rgb(146, 126, 236);
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: floralwhite;
+  border: 0.1rem solid black;
 }
