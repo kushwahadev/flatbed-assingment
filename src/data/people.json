@@ -1,0 +1,25 @@
+{
+  "tweet": [
+    {
+      "profilepic": "/imgs/cooper.png",
+      "name": "Cooper Stanton",
+      "date": "6th August,2023",
+      "rating": "/imgs/stars.png",
+      "description": "Lorem ipsum dolor sit amet consectetur.Pretium interdum vitae elit imperdiet leo ullamcorper turpis in viverra. Augue tristique venenatis morbi condimentum mi feugiat tellus. Lectus pretium bibendum auctor libero."
+    },
+    {
+      "profilepic": "/imgs/marley.png",
+      "name": "Marley Press",
+      "date": "6th August,2023",
+      "rating": "/imgs/stars.png",
+      "description": "Lorem ipsum dolor sit amet consectetur.Pretium interdum vitae elit imperdiet leo ullamcorper turpis in viverra. Augue tristique venenatis morbi condimentum mi feugiat tellus. Lectus pretium bibendum auctor libero."
+    },
+    {
+      "profilepic": "/imgs/ryan.png",
+      "name": "Ryan Rhiel Madsen",
+      "date": "6th August,2023",
+      "rating": "/imgs/stars.png",
+      "description": "Lorem ipsum dolor sit amet consectetur.Pretium interdum vitae elit imperdiet leo ullamcorper turpis in viverra. Augue tristique venenatis morbi condimentum mi feugiat tellus. Lectus pretium bibendum auctor libero."
+    }
+  ]
+}

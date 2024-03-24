@@ -1,0 +1,72 @@
+/* // for containers  */
+
+.container {
+  background-color: white;
+}
+
+/* first heading  */
+.heading {
+  color: rgb(11, 11, 11);
+  font-weight: 200;
+  font-size: x-large;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* // image baxes  */
+
+.imgBox {
+  /* grid-column: auto; */
+  /* column-gap: 6rem; */
+  cursor: pointer;
+  text-align: center;
+}
+
+/* review section ˚≥ */
+.reviews {
+  background-color: rgba(241, 241, 241, 0.878);
+  padding: 2%;
+}
+
+/* review section heading  */
+.headingReview {
+  text-align: center;
+  color: rgb(11, 11, 11);
+  font-weight: 200;
+  font-size: x-large;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+.uperbox {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2rem;
+  padding: 10px;
+}
+
+.mainBox {
+  height: fit-content;
+
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+.logoBox {
+  display: grid;
+  grid-template-columns: 4rem auto;
+}
+
+.info {
+  margin: 0rem;
+  padding: 1%;
+}
+
+.reviewDescription {
+  padding: 1rem;
+  font-size: small;
+}
+.mainBox:hover {
+  box-shadow: 0.5rem 0.5rem 1rem rgb(101, 240, 240);
+}
