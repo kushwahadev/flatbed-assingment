@@ -9,7 +9,7 @@ function Reviews() {
       </h2>
       <div className={Styles.uperbox}>
         {data.tweet.map((revieu) => (
-          <div className={Styles.mainBox}>
+          <div className={Styles.mainBox} key={revieu.id}>
             <div className={Styles.logoBox}>
               {/* logo */}
               <Image
