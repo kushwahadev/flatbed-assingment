@@ -116,4 +116,31 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: floralwhite;
   border: 0.1rem solid black;
+  cursor: pointer;
+}
+
+/* /// handling images  */
+
+.imgBoxfooter {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  gap: 0rem;
+  margin: 0px;
+  padding: 1rem;
+  column-gap: 1px;
+}
+
+.cmnDiv {
+  margin: 0px;
+  /* padding: 0px; */
+  /* width: fit-content; */
+}
+
+.fimg {
+  padding: 0.2rem;
+  border-radius: 2rem;
+}
+
+.topimg {
+  /* display: block; */
 }

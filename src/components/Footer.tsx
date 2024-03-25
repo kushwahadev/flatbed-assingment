@@ -1,5 +1,6 @@
 import Styles from "@/app/global.module.css";
 import Image from "next/image";
+import ImgBundle from "./ImgBundle";
 function Footer() {
   return (
     <div className={Styles.footerhead}>
@@ -10,6 +11,7 @@ function Footer() {
         </p>
         <button className={Styles.footerbtn}>CONTACT US</button>
       </div>
+      <ImgBundle />
     </div>
   );
 }
